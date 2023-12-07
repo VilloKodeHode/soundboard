@@ -28,14 +28,14 @@ const drumComponent = (sound) => {
     audioEl.src = `${data.sounds.folder}/${sound.file}`
     // audioEl.src = soundRef
 
-    buttonEl.addEventListener('pointerdown', () => {
+    buttonEl.addEventListener('focus', () => {
         audioEl.play()
     })
 
-    buttonEl.addEventListener('pointerup', () => {
-        audioEl.pause()
-        audioEl.currentTime = 0
-    })
+    // buttonEl.addEventListener('pointerup', () => {
+    //     audioEl.pause()
+    //     audioEl.currentTime = 0
+    // })
 
     document.addEventListener('keydown', (event) => {
         const key = event.key.toLowerCase();
