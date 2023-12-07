@@ -17,7 +17,7 @@ export const sounds = {
         { file: "confusing.mp3", key: "x" },
         { file: "deja-vu.mp3", key: "c" },
         { file: "didnt-laugh.mp3", key: "v" },
-        { file: "disgusting.mp3", key: "b" },
+        { file: "disgusting.mp3", key: "@" },
         { file: "do-you-know-the-way.mp3", key: "n" },
         { file: "dr-livesey.mp3", key: "m" },
         { file: "dun-dun-dun.mp3", key: "," },
